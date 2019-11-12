@@ -24,6 +24,10 @@ class User < ApplicationRecord
     User.digest(token) == :remember_token
   end
 
+  def forget
+    update_attribute(:remember_token, nil)
+  end
+
   private
 
   def create_remember_token
