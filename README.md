@@ -1,24 +1,7 @@
-# README
+# Members Only app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is part of the **Ruby on Rails** cirriculum at [The Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication?ref=lnav).
 
-Things you may want to cover:
+## Information
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This site is part of the authentication for **Ruby on Rails**. Registered members can write *"embarrassing"* posts about non-members. Inside, members are able to see who the author is, but from outside the information is hidden. This is a "roll your own" authentication system.
