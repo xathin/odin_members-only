@@ -20,6 +20,10 @@ class User < ApplicationRecord
     update_attribute(:remember_token, User.digest(remember))
   end
 
+  def authenticated?(token)
+    User.digest(token) == :remember_token
+  end
+
   private
 
   def create_remember_token
